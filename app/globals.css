@@ -24,9 +24,6 @@
     /* background: #1e2238; */
     background: transparent;
   }
-  :root {
-    --radius: 0.5rem;
-  }
 }
 
 @layer utilities {
@@ -52,7 +49,7 @@
   }
 
   .header {
-    @apply text-32-bold md:text-36-bold;
+    @apply text-32-bold md:text-36-bold text-white;
   }
 
   .sub-header {
